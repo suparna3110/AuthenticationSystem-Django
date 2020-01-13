@@ -3,7 +3,7 @@ import datetime
 
 # Create your models here.
 
-
+# database creation 
 class Persons(models.Model):
     userid = models.BigAutoField(primary_key=True)
     fname = models.CharField(max_length=50)
